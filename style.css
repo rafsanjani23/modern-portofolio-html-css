@@ -75,7 +75,7 @@ nav {
 .hero {
   margin-top: 100px;
 }
-.hero h2 {
+.hero h1 {
   font-size: 2rem;
   animation: fadeInUp 0.8s ease;
 }
