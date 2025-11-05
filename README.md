@@ -1,7 +1,6 @@
 # 🌐 Modern Portfolio Website — HTML & CSS
 
-Website portofolio ini dibuat dengan desain **modern, minimalis, dan aesthetic**, menggunakan **HTML** dan **CSS murni** (tanpa framework).  
-Tujuannya untuk menampilkan profil, karya, atau project dengan tampilan profesional yang bisa dijadikan **portofolio GitHub pribadi**.
+Website portofolio ini dibuat dengan desain **modern, minimalis, dan aesthetic**, menggunakan **HTML** dan **CSS murni** (tanpa framework).
 
 ---
 
