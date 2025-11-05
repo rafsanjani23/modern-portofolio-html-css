@@ -1,39 +1,22 @@
-# 🌐 Modern Portfolio Website — HTML & CSS
+# 🌐 Modern Portfolio Website
 
-Website portofolio ini dibuat dengan desain **modern, minimalis, dan aesthetic**, menggunakan **HTML** dan **CSS murni** (tanpa framework).
-
----
+Website portofolio pribadi yang dirancang dengan tampilan **modern, minimalis, dan responsif**.  
+Dibuat menggunakan **HTML dan CSS murni** tanpa framework tambahan, menampilkan profil, proyek, dan kontak dengan desain bersih serta mudah dikembangkan.
 
 ## 🚀 Fitur Utama
+- 💡 Desain modern dan aesthetic  
+- 📱 Responsive layout (otomatis menyesuaikan tampilan mobile)  
+- 🎨 Animasi lembut untuk efek profesional  
+- 🧭 Navbar dengan hamburger menu interaktif di perangkat mobile  
+- 🧱 Struktur kode sederhana dan mudah dikustomisasi  
 
-- **Navbar Responsif**
-  - Desain elegan dengan efek hover.
-  - Berubah menjadi tampilan menu hamburger di mode mobile.
+## 🛠️ Teknologi yang Digunakan
+- **HTML5** – Struktur halaman dan elemen konten  
+- **CSS3** – Styling, animasi, dan efek responsif  
+- **Google Fonts (Poppins)** – Tipografi modern dan elegan  
 
-- **Hero Section**
-  - Menggunakan gambar background dari [Unsplash](https://unsplash.com/).
-  - Teks dan tombol call-to-action ditata secara proporsional dengan efek bayangan lembut.
-
-- **Layout Modern**
-  - Menggunakan *Flexbox* dan *CSS Grid* untuk tata letak responsif.
-  - Warna dan tipografi mengikuti gaya *modern UI*.
-
-- **Desain Aesthetic**
-  - Mengombinasikan warna gradasi lembut dan bayangan halus.
-  - Menggunakan font *Poppins* untuk tampilan bersih dan profesional.
-
-- **Struktur File Terpisah**
-  - File HTML dan CSS dipisahkan agar mudah dipelihara dan dikembangkan.
-
----
-
-## 🎨 Teknologi yang Digunakan
-
-**HTML5**
-Untuk struktur dan konten halaman.
-
-**CSS3**
-Untuk desain visual, animasi, dan tata letak responsif.
-
-**Google Fonts (Poppins)**
-Untuk tipografi modern dan bersih.
+## 📁 Struktur Folder
+/modern-portfolio
+│
+├── index.html # Halaman utama portofolio
+├── style.css # File CSS utama untuk desain
