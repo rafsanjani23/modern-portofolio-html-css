@@ -1,0 +1,203 @@
+/* Font dan gaya dasar */
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f9f9f9;
+  color: #333;
+  scroll-behavior: smooth;
+}
+
+/* Header */
+header {
+  background: linear-gradient(135deg, #007bff, #00c4ff);
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+/* Logo */
+.logo {
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+.logo span {
+  color: #ffeb3b;
+}
+
+/* ===== NAVIGATION MENU ===== */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  transition: opacity 0.3s ease;
+}
+.nav-links a:hover {
+  opacity: 0.8;
+}
+
+/* ===== HAMBURGER MENU ===== */
+.menu-icon {
+  display: none;
+  font-size: 2rem;
+  cursor: pointer;
+  color: white;
+}
+
+/* Checkbox toggle (disembunyikan) */
+#menu-toggle {
+  display: none;
+}
+
+/* HERO SECTION */
+.hero {
+  margin-top: 100px;
+}
+.hero h2 {
+  font-size: 2rem;
+  animation: fadeInUp 0.8s ease;
+}
+.hero span {
+  color: #ffeb3b;
+}
+.hero p {
+  animation: fadeInUp 1s ease;
+}
+.btn {
+  display: inline-block;
+  margin-top: 15px;
+  background: white;
+  color: #007bff;
+  padding: 10px 25px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+.btn:hover {
+  background: #ffeb3b;
+  color: #333;
+}
+
+/* Animasi lembut */
+@keyframes fadeInUp {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Section Umum */
+.section {
+  padding: 60px 20px;
+  text-align: center;
+  max-width: 900px;
+  margin: auto;
+}
+.section h2 {
+  color: #007bff;
+  margin-bottom: 20px;
+}
+
+/* Kartu Proyek */
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+.card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 250px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* Footer */
+footer {
+  background: #222;
+  color: #ccc;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9rem;
+}
+
+/* ===== RESPONSIVE NAVBAR ===== */
+@media (max-width: 768px) {
+  nav {
+    flex-wrap: wrap;
+  }
+
+  /* tampilkan ikon menu */
+  .menu-icon {
+    display: block;
+  }
+
+  /* sembunyikan menu awal */
+  .nav-links {
+    display: none;
+    width: 100%;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(8px);
+    border-radius: 10px;
+    margin-top: 15px;
+    animation: fadeInDown 0.3s ease;
+  }
+
+  /* tampilkan menu saat toggle aktif */
+  #menu-toggle:checked + .menu-icon + .nav-links {
+    display: flex;
+  }
+
+  .nav-links li {
+    padding: 10px 0;
+  }
+
+  .hero {
+    margin-top: 120px;
+  }
+}
+
+/* Animasi turun */
+@keyframes fadeInDown {
+  from {
+    transform: translateY(-15px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
