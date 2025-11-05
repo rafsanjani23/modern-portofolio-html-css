@@ -16,6 +16,8 @@ Dibuat menggunakan **HTML dan CSS murni** tanpa framework tambahan, menampilkan 
 - **Google Fonts (Poppins)** – Tipografi modern dan elegan  
 
 ## 📁 Struktur Folder
+
+```plaintext
 /modern-portfolio
 │
 ├── 📄 index.html # Halaman utama portofolio
