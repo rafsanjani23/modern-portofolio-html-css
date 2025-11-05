@@ -1,4 +1,4 @@
-/* Font dan gaya dasar */
+/* ===== FONT & DASAR ===== */
 body {
   font-family: "Poppins", sans-serif;
   margin: 0;
@@ -8,7 +8,7 @@ body {
   scroll-behavior: smooth;
 }
 
-/* Header */
+/* ===== HEADER ===== */
 header {
   background: linear-gradient(135deg, #007bff, #00c4ff);
   color: white;
@@ -29,7 +29,7 @@ nav {
   right: 0;
 }
 
-/* Logo */
+/* ===== LOGO ===== */
 .logo {
   font-weight: 600;
   font-size: 1.5rem;
@@ -53,6 +53,7 @@ nav {
   font-weight: 500;
   transition: opacity 0.3s ease;
 }
+
 .nav-links a:hover {
   opacity: 0.8;
 }
@@ -70,7 +71,7 @@ nav {
   display: none;
 }
 
-/* HERO SECTION */
+/* ===== HERO SECTION ===== */
 .hero {
   margin-top: 100px;
 }
@@ -112,7 +113,13 @@ nav {
   }
 }
 
-/* Section Umum */
+/* ===== KONTEN UTAMA ===== */
+main {
+  display: block;
+  width: 100%;
+}
+
+/* ===== SECTION UMUM ===== */
 .section {
   padding: 60px 20px;
   text-align: center;
@@ -124,14 +131,14 @@ nav {
   margin-bottom: 20px;
 }
 
-/* Kartu Proyek */
+/* ===== PROYEK (ARTICLE) ===== */
 .projects-container {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
   justify-content: center;
 }
-.card {
+article.card {
   background: white;
   border-radius: 10px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
@@ -139,12 +146,12 @@ nav {
   width: 250px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-.card:hover {
+article.card:hover {
   transform: translateY(-8px);
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
 }
 
-/* Footer */
+/* ===== FOOTER ===== */
 footer {
   background: #222;
   color: #ccc;
