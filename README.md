@@ -18,5 +18,6 @@ Dibuat menggunakan **HTML dan CSS murni** tanpa framework tambahan, menampilkan 
 ## 📁 Struktur Folder
 /modern-portfolio
 │
-├── index.html # Halaman utama portofolio
-├── style.css # File CSS utama untuk desain
+├── 📄 index.html # Halaman utama portofolio
+├── 🎨 style.css # File CSS utama untuk styling dan animasi
+├── 📘 README.md # Dokumentasi proyek
